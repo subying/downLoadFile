@@ -3,13 +3,13 @@
 ## 安装
 
 ```shell
-npm install downloadFile 
+npm install downLoadFile 
 ```
 
 ## 使用
 
 ```js
-var DownLoad = require('downloadFile');
+var DownLoad = require('downLoadFile');
 
 var dwImg = new DownLoad();
 
