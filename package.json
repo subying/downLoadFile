@@ -1,0 +1,28 @@
+{
+  "name": "downLoadImg",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=5.0"
+  },
+  "author": {
+    "name": "subying",
+    "email": "tearlight2008@gmail.com"
+  },
+  "homepage": "https://github.com/subying/downloadFile.git",
+  "description": "下载文件",
+  "main": "lib/index.js",
+  "keywords": [
+    "download",
+    "image"
+  ],
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subying/downloadFile.git"
+  },
+  "license": "MIT"
+}
