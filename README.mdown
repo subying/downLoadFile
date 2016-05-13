@@ -3,7 +3,7 @@
 ## 安装
 
 ```shell
-npm install downLoadFile 
+npm install downLoadFile
 ```
 
 ## 使用
@@ -15,7 +15,8 @@ var dwImg = new DownLoad();
 
 dwImg.saveFile('http://img1.mm131.com/pic/2467/1.jpg','img/test/sd/1.jpg',(err)=>{
 	console.log(err);
-},()=>{
+},(isFullDown)=>{
+	//isFullDown  是否下载完整
 	console.log('it is close');
 })
 ```
