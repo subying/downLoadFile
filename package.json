@@ -8,7 +8,7 @@
     "name": "subying",
     "email": "tearlight2008@gmail.com"
   },
-  "homepage": "https://github.com/subying/downloadFile.git",
+  "homepage": "https://github.com/subying/downLoadFile.git",
   "description": "下载文件",
   "main": "lib/index.js",
   "keywords": [
@@ -22,7 +22,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/subying/downloadFile.git"
+    "url": "https://github.com/subying/downLoadFile.git"
   },
   "license": "MIT"
 }
