@@ -1,6 +1,6 @@
 {
   "name": "downLoadFile",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "engines": {
     "node": ">=5.0"
   },
@@ -13,7 +13,11 @@
   "main": "lib/index.js",
   "keywords": [
     "download",
-    "image"
+    "image",
+    "file",
+    "下载",
+    "图片",
+    "文件"
   ],
   "dependencies": {
     "mkdirp": "^0.5.1",
