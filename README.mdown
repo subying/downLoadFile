@@ -46,6 +46,7 @@ var dwImg = new DownLoad({
 	*/
 	onend: ()=>{
 		console.log('it is end');
+        console.log(`下载了:${dwImg.downNum}，失败:${dwImg.failNum}`);
 	},
     progressEnabled: true //是否开启进度打印
 });
