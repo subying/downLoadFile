@@ -48,9 +48,18 @@ var dwImg = new DownLoad({
 		console.log('it is end');
         console.log(`下载了:${dwImg.downNum}，失败:${dwImg.failNum}`);
 	},
-    progressEnabled: true //是否开启进度打印
+    progressEnabled: true, //是否开启进度打印
+    /*
+		@description 每个文件下载进度
+        @param {String} uri 下载url
+        @param {Number} total 文件总大小
+        @param {Number} length 当前接收文件大小
+	*/
+    onProgress: (uri,total,length)=>{
+        console.log(uri,length*100/total+'%');
+    }
 });
 for(let i=1;i<20;i++){
-	dwImg.addItem(`http://img1.mm131.com/pic/2469/${i}.jpg`,`img/te/${i}.jpg`);
+	dwImg.addItem(`http://img1.mm131.com/pic/2490/${i}.jpg`,`img/te/${i}.jpg`);
 }
 ```
